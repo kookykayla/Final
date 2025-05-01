@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="author" content="Kayla Schiavi">
+            <meta name="description" content="A resort's contact page, where those can contact this beautiful resort.">
+            <title>Aurora Calm Resort | Contact</title>
+
+            <link rel="Stylesheet" href="styles copy.css">
+            <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        </head>
+        <body>
+            <header>
+                <h1>Aurora Calm Resort</h1>
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="#">Accommodations</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                <div class="hero"></div>
+            </header>
+            <main>
+                <h2>Contact Us</h2>
+                    <p style="text-align:center; max-width: 600px; margin: 0 auto 2rem;">
+                    Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>
+                    <strong>Required fields marked with a*</strong>
+                    </p>
+
+                <div class="contact-wrapper">
+                <div class="contact-image">
+                    <img src="images/swiss-peak.jpg" alt="Snow-covered Swiss mountain peak">
+                </div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <label for="name">Full Name*</label>
+                    <input type="text" id="name" name="name" required />
+                  
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" required />
+                  
+                    <label for="phone">Phone Number*</label>
+                    <input type="text" id="phone" name="phone" required />
+                  
+                    <label>Preferred Contact Method*</label>
+                    <div class="radio-group">
+                      <label><input type="radio" name="contact-method" value="email" required /> Email</label>
+                      <label><input type="radio" name="contact-method" value="phone" required /> Phone</label>
+                    </div>
+                  
+                    <label for="comments">Comments*</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                  
+                    <input type="submit" value="Submit" />
+                  </form>
+                </div>
+                </div>
+            </main>
+            <footer>
+                <p>Copyright ©2025 - Aurora Calm Resort</p>
+                <p>This site is for educational purposes only</p>
+            </footer>
+        </body>
+    </html>
